@@ -1,3 +1,6 @@
 .DS_Store
 /Chrome Extension
 /Rock Paper Scissor
+node_modules
+package.json
+package-lock.json
