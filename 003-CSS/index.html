@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>CSS</title>
+
+
+</head>
+
+<body class="bg-[#181e1b] bg-[url('/images/bg-stars.svg')] min-h-screen pt-24">
+    <h1 class="text-center text-white text-[40px] uppercase tracking-[.25em] font-bold">Plants accordion</h1>
+    <section id="accordion" class="pt-32 flex flex-col justify-center items-center text-center">
+        <ul class="w-full flex justify-center h-[400px] gap-4 transition  hover:gap-0">
+            <li
+                class="group hover:visible relative overflow-hidden flex-[0_0_80px] rounded-[50px] opacity-75 cursor-pointer hover:flex-[0_1_260px] hover:scale-110 hover:z-10 hover:opacity-100 transition-transform">
+                <img src="img/01.jpg" alt=""
+                    class="transition  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full object-cover" />
+                <div
+                    class="content transition  absolute top-0 right-0 left-0 bottom-0 z-1 text-white p-4  bg-opacity-80 bg-gradient-to-t from-[rgba(0,0,0,0.75)]  opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                    <span
+                        class="transition  absolute  z-3 l-[50%] bottom-[50px] translate-x-[-300px] invisible opacity-0 group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:visible">
+                        <h2 class="text-2xl leading-10 border-b-2 border-b-white">Title 1</h2>
+                        <p class="text-sm pt-4 opacity-60">Subtitle 1</p>
+                    </span>
+                </div>
+            </li>
+
+            <li
+                class="group hover:visible relative overflow-hidden flex-[0_0_80px] rounded-[50px] opacity-75 cursor-pointer hover:flex-[0_1_260px] hover:scale-110 hover:z-10 hover:opacity-100 transition-transform">
+                <img src="img/02.jpg" alt=""
+                    class="transition  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full object-cover" />
+                <div
+                    class="transition  absolute top-0 right-0 left-0 bottom-0 z-1 text-white p-4  bg-opacity-80 bg-gradient-to-t from-[rgba(0,0,0,0.75)]  opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                    <span
+                        class="transition  absolute  z-3 l-[50%] bottom-[50px] translate-x-[-300px] invisible opacity-0 group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:visible">
+                        <h2 class="text-2xl leading-10 border-b-2 border-b-white">Title 1</h2>
+                        <p class="text-sm pt-4 opacity-60">Subtitle 1</p>
+                    </span>
+                </div>
+            </li>
+
+            <li
+                class="group hover:visible relative overflow-hidden flex-[0_0_80px] rounded-[50px] opacity-75 cursor-pointer hover:flex-[0_1_260px] hover:scale-110 hover:z-10 hover:opacity-100 transition-transform">
+                <img src="img/03.jpg" alt=""
+                    class="transition  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full object-cover" />
+                <div
+                    class="transition  absolute top-0 right-0 left-0 bottom-0 z-1 text-white p-4  bg-opacity-80 bg-gradient-to-t from-[rgba(0,0,0,0.75)]  opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                    <span
+                        class="transition  absolute  z-3 l-[50%] bottom-[50px] translate-x-[-300px] invisible opacity-0 group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:visible">
+                        <h2 class="text-2xl leading-10 border-b-2 border-b-white">Title 1</h2>
+                        <p class="text-sm pt-4 opacity-60">Subtitle 1</p>
+                    </span>
+                </div>
+            </li>
+
+            <li
+                class="group hover:visible relative overflow-hidden flex-[0_0_80px] rounded-[50px] opacity-75 cursor-pointer hover:flex-[0_1_260px] hover:scale-110 hover:z-10 hover:opacity-100 transition-transform">
+                <img src="img/04.jpg" alt=""
+                    class="transition  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full object-cover" />
+                <div
+                    class="transition  absolute top-0 right-0 left-0 bottom-0 z-1 text-white p-4  bg-opacity-80 bg-gradient-to-t from-[rgba(0,0,0,0.75)]  opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+                    <span
+                        class="transition  absolute  z-3 l-[50%] bottom-[50px] translate-x-[-300px] invisible opacity-0 group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:visible">
+                        <h2 class="text-2xl leading-10 border-b-2 border-b-white">Title 1</h2>
+                        <p class="text-sm pt-4 opacity-60">Subtitle 1</p>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
