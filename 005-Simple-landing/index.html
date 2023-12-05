@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple landing</title>
+    <!--Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="h-screen bg-gradient-to-r from-emerald-900 to-emerald-700">
+
+    <header class="fixed right-0 top-0 z-50 w-full flex items-center justify-between py-8 px-[9%] bg-transparent">
+        <a href="#" class="logo text-[30px] font-bold text-white">Hortus</a>
+        <ul class="navlist flex gap-16"> 
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Home</a> </li>
+        </ul>
+        <div class="bx bx-menu text-white text-[35px] z-51 cursor-pointer hidden"></div>
+    </header>
+
+    <section class="hero h-full w-full min-h-full relative flex flex-row justify-between items-center gap-40 px-[20%]">
+        <div class="text-white hero-text">
+            <h5 class="text-[14px] mb-10">#2 Trending</h5>
+            <h4 class="text-[18px] font-semibold mb-2.5">Interior classic</h4>
+            <h1 class="text-[90px] leading-none mb-11">monstera</h1>
+            <p class="text-3.5 font-light leading-loose mb-10 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quasi officia iste ratione aperiam fuga magni amet nobis id recusandae, quo quibusdam sapiente libero at eaque dolorum, maiores esse similique!</p>
+            <a href="#" class="bg-emerald-500 hover:bg-emerald-600">Compare</a>
+            <a href="#" class="ctaa border-2 ml-5"><i class="ri-play-fill align-middle mr-1.5"></i>Watch</a>
+        </div>
+        <div>
+            <img src="img/monstera.png" alt="" class="w-[700px h-auto">
+        </div>
+    </section>
+    <div class="icons absolute top-1/2 px-[9%] translate-y-[-50%]">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="#"><i class="ri-dribbble-line"></i></a>
+    </div>
+
+    <div class="scroll absolute bottom-[6%] right-[9%] transition-all ease duration-500 ">
+        <a href="#"><i class="ri-arrow-down-s-fill  p-3 text-[25px] text-white bg-emerald-600 rounded-[30px] "></i></a>
+    </div>
+<script src="script.js"></script> 
+</body>
+
+</html>

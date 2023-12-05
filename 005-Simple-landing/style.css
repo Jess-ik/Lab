@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.navlist a {
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero-text a {
+    display: inline-block;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.hero-text a:hover {
+    transform: translateY(-8px);
+}
+
+.icons i {
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+
+.icons i:hover {
+    color: #38a169;
+    transform: translateY(-5px);
+}
+
+.scroll:hover{
+    transform: translateY(-8px);
+}
