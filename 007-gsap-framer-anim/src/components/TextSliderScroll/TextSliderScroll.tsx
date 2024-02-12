@@ -5,12 +5,12 @@ import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
-export default function Home() {
+export default function Home({directionProp, textProp}) {
 	const firstText = useRef(null);
 	const secondText = useRef(null);
 	const slider = useRef(null);
 	let xPercent = 0;
-	let direction = -1;
+	let direction = directionProp; 
 
 	useEffect(() => {
 		gsap.registerPlugin(ScrollTrigger);
@@ -20,7 +20,7 @@ export default function Home() {
 				scrub: 0.25,
 				start: 0,
 				end: window.innerHeight,
-				onUpdate: (e) => (direction = e.direction * -1),
+				onUpdate: (e) => (direction = e.direction * directionProp),
 			},
 			x: "-500px",
 		});
@@ -40,13 +40,12 @@ export default function Home() {
 	};
 
 	return (
-		<main>
-			<Image src="/images/background.jpg" fill={true} alt="background" />
+		<main id="main" className="  h-[25vh]">
 			<div id="slider-container">
 				<div ref={slider} id="slider">
-					<p ref={firstText}>Freelance Developer -</p>
-					<p ref={secondText}>Freelance Developer -</p>
-				</div>
+					<p ref={firstText}>{textProp}</p>
+					<p ref={secondText}>{textProp}</p>
+				</div>	
 			</div>
 		</main>
 	);

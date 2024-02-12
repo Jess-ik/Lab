@@ -1,19 +1,15 @@
-main{
-    position: relative;
-    display: flex;
-    height: 100vh;
-    margin-bottom: 100vh;
-    overflow: hidden;
+#main{
+   
   }
   
-  main img{
+  #main img{
     object-fit: cover;
   }
   
-  #slider-container{
+ #slider-container{
     position: absolute;
-    top: calc(100vh - 350px);
-  }
+    top: ;
+  } 
   
   #slider{
     position: relative;
@@ -25,7 +21,7 @@ main{
     position: relative;
     margin: 0px;
     color: white;
-    font-size: 230px;
+    font-size: 100px;
     font-weight: 500;
     padding-right: 50px;
   }
