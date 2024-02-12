@@ -1,8 +1,9 @@
 .DS_Store
 /Chrome Extension
-/Rock Paper Scissor
+/001-Rock-Paper-Scissors
 node_modules
 package.json
 package-lock.json
 /assets
 /002-Countdown
+/007-gsap-framer-anim
